@@ -6,7 +6,7 @@
       sudo apt install docker.io
    ```
 <div align="center">
-  <img src="image/1.png" width="80%" />
+  <img src="images/1.png" width="80%" />
 </div>
 
 2. &zwnj;**编写 Dockerfile**&zwnj;
@@ -22,10 +22,10 @@
       docker build -t cowsay .
    ```
 <div align="center">
-  <img src="image/6.png" width="80%" />
+  <img src="images/2.png" width="80%" />
 </div>
 <div align="center">
-  <img src="image/3.png" width="80%" />
+  <img src="images/3.png" width="80%" />
 </div>
 
 4. &zwnj;**进入容器并运行 cowsay**&zwnj;
@@ -37,15 +37,15 @@
    ```
 
 <div align="center">
-  <img src="image/12.png" width="80%" />
-  <img src="image/3.png" width="80%" />
+  <img src="images/4.png" width="80%" />
+  <img src="images/5.png" width="80%" />
 </div>
 
 5. &zwnj;**查看 Docker 进程**&zwnj;
    - 运行以下命令查看正在运行的 Docker 容器：
   
 <div align="center">
-  <img src="image/13.png" width="80%" />
+  <img src="images/6.png" width="80%" />
 </div>
 
 
@@ -56,7 +56,7 @@
    ```
    
 <div align="center">
-  <img src="image/14.png" width="80%" />
+  <img src="images/7.png" width="80%" />
 </div>
 
 7. &zwnj;**创建并连接容器到自定义网络**&zwnj;
@@ -71,7 +71,7 @@
     docker network connect myNetwork mycontainer2
    ```
 <div align="center">
-  <img src="image/14.png" width="80%" />
+  <img src="images/8.png" width="80%" />
 </div>
 
 8. &zwnj;**测试容器间网络连接**&zwnj;
@@ -82,5 +82,5 @@
 
    ```
 <div align="center">
-  <img src="image/15.png" width="80%" />
+  <img src="images/9.png" width="80%" />
 </div>
